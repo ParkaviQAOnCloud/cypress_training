@@ -1,0 +1,20 @@
+[
+  {
+    "scenario": "Sign in using not an advisor - Wrong Password",
+    "username": "kaviya19@gmail.com",
+    "password": "Qaoncloud@02",
+    "expectedError": "Unable to log in with provided credentials.",
+    "forgotPassword": true,
+    "expectedRedirect": "/reset-password"
+  },
+  {
+    "scenario": "Sign in using not an advisor - Correct Password",
+    "username": "kaviya19@gmail.com",
+    "password": "Qaoncloud@01",
+    "expectedError": null,
+    "forgotPassword": false,
+    "expectedRedirect": null
+  }
+]
+
+
