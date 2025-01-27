@@ -26,6 +26,7 @@ describe('Sign In Test', () => {
 
       // Verify successful login
       cy.url().should('not.contain', '/login');
+      //cy.wait(1000)
     });
   });
 
