@@ -115,7 +115,7 @@ describe('Page Object Model testsuite -  Sign in of the Github Account', () => {
         sign.setUserName("shwethaacharya15")
         sign.setPassword("Shwethagithub@28")
         sign.clickSubmit()
-    
+        //cy.wait(1000);
     })
 
 
